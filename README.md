@@ -13,3 +13,5 @@
 | `screen -S <screen-name>` | Start a new `screen` session with name `screen-name` |
 | `screen -r <screen-name>` | Attach to a running `screen` session with name `screen-name` |
 | `C-a d` | Detach  |
+
+## `vi`
