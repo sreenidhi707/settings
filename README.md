@@ -87,4 +87,6 @@ or available locally via: info '(coreutils) du invocation'
 ## `vscode`
 | Command | Description |
 | ------- | ----------- |
-| `⌘K ⌘[` | Fold/unfold all subregions |
+| `⌘K ⌘S` | Show keyboard shortcuts |
+| `⌘K ⌘[` | Fold all subregions |
+| `⌘K ⌘]` | Unfold all subregions |
