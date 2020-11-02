@@ -83,3 +83,8 @@ or available locally via: info '(coreutils) du invocation'
 | `C-a d` | Detach  |
 
 ## `vi`
+
+## `vscode`
+| Command | Description |
+| ------- | ----------- |
+| `⌘K ⌘[` | Fold/unfold all subregions |
