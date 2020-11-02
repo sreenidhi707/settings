@@ -66,7 +66,6 @@ or available locally via: info '(coreutils) du invocation'
 | Command | Description |
 | ------- | ----------- |
 | `sudo du -sh ./* \| sort -hr` | disk usage summary of current folder in human readable format `\|` sort in reverse order and show output in human readable format |
-| `git diff` | Show file differences that **haven't been** staged |
 
 ## `grep`
 
