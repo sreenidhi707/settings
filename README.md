@@ -73,6 +73,20 @@ or available locally via: info '(coreutils) du invocation'
 | ------- | ----------- |
 | `grep -r --include \*.py "search-term"` | grep inside all .py files recursively in a folder |
 
+## `less`
+
+| Command | Description |
+| ------- | ----------- |
+| `-N` | Show line numbers |
+| `g` | Goto beginning of file |
+| `G` | Goto end of file |
+| `SPC` | Page down |
+| `b` | Page up |
+| `/<text>` | Search forwards |
+| `?<text>` | Search backwards |
+| `-S` | Disable line wrap, to see chopped portion press right arrow |
+| `q` | Quit |
+
 ## `screen`
 
 | Command | Description |
