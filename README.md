@@ -92,6 +92,7 @@ or available locally via: info '(coreutils) du invocation'
 | Command | Description |
 | ------- | ----------- |
 | `screen -ls` | list all currently running `screen` sessions |
+| `echo $STY` | show the name of current `screen` session, if attached |
 | `screen -S <screen-name>` | Start a new `screen` session with name `screen-name` |
 | `screen -r <screen-name>` | Attach to a running `screen` session with name `screen-name` |
 | `C-a d` | Detach  |
