@@ -98,6 +98,7 @@ or available locally via: info '(coreutils) du invocation'
 | `echo $STY` | show the name of current `screen` session, if attached |
 | `screen -S <screen-name>` | Start a new `screen` session with name `screen-name` |
 | `screen -r <screen-name>` | Attach to a running `screen` session with name `screen-name` |
+| `screen -wipe` | remove dead `screen`s |
 | `C-a d` | Detach  |
 
 ## `vi`
