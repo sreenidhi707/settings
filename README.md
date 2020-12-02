@@ -103,6 +103,11 @@ or available locally via: info '(coreutils) du invocation'
 
 ## `vi`
 
+| Command | Description |
+| ------- | ----------- |
+| `0` | Goto beginning of line |
+| `^` | Goto first non-blank character in line |
+
 ## `vscode`
 | Command | Description |
 | ------- | ----------- |
