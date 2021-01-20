@@ -107,6 +107,7 @@ or available locally via: info '(coreutils) du invocation'
 | ------- | ----------- |
 | `0` | Goto beginning of line |
 | `^` | Goto first non-blank character in line |
+| `SHIFT D` | Deletes from current cursor position to end of current line |
 
 ## `vscode`
 | Command | Description |
