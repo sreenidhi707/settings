@@ -95,7 +95,7 @@ or available locally via: info '(coreutils) du invocation'
 | Command | Description |
 | ------- | ----------- |
 | `virtualenv --python=/usr/bin/python2.6 <path/to/new/virtualenv/>` | Create new virtual environment, say for Python 2.6 (in general for versions less than Python 3.3) |
-| `python3 -m venv <path/to/new/virtualenv/>` | Create new virtual environment, for Python 3 (in general for versions greater than Python 3.3) |
+| `python3.6 -m venv <path/to/new/virtualenv/>` | Create new virtual environment, say for Python 3.6 (in general for versions greater than Python 3.3) |
 
 ## `screen`
 
