@@ -120,5 +120,7 @@ or available locally via: info '(coreutils) du invocation'
 | Command | Description |
 | ------- | ----------- |
 | `⌘K ⌘S` | Show keyboard shortcuts |
+| `⌘K 0` | Fold all regions in file |
+| `⌘K j` | Unfold all regions in file |
 | `⌘K ⌘[` | Fold all subregions |
 | `⌘K ⌘]` | Unfold all subregions |
