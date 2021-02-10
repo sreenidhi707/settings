@@ -132,11 +132,13 @@ or available locally via: info '(coreutils) du invocation'
 
 
 ## `comparison`
-|      Command    | Description        |    vi   | emacs       | vscode     |
-| ----------------| -----------        | ------- | ----------- |----------- |
-| `navigation`    |                    |         |
-| `⌘ up`          | Goto top of file   |   `0`   |             |  `⌘`:arrow_up:    |
-| `⌘ down`        | Goto end of file   |   `G`   |             |  `⌘`:arrow_down:    |
+|  Command group  |       Command            |    vi   | emacs       | vscode     |
+| ----------------| -----------              | ------- | ----------- |----------- |
+| `navigation`    |                          |         |
+|                 | Goto top of file         |   `0`   |             |  `⌘`:arrow_up:    |
+|                 | Goto end of file         |   `G`   |             |  `⌘`:arrow_down:    |
+|                 | Goto beginning of line   |   `gg`  |             |  `⌘`:arrow_left:    |
+|                 | Goto end of line         |   `$`   |             |  `⌘`:arrow_right:    |
 | `code folding`  |                    |
 | `⌘K 0` | Fold all regions in file   |
 | `⌘K j` | Unfold all regions in file |
