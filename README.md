@@ -112,18 +112,13 @@ or available locally via: info '(coreutils) du invocation'
 
 | Command | Description |
 | ------- | ----------- |
-| `0` | Goto beginning of line |
 | `^` | Goto first non-blank character in line |
-| `$` | Goto last character in line |
 | `SHIFT D` | Deletes from current cursor position to end of current line |
 
 ## `vscode`
 | Command | Description |
 | ------- | ----------- |
 | `⌘K ⌘S` | Show keyboard shortcuts |
-| `navigation` |                    |
-| `⌘ up`          | Goto top of file |
-| `⌘ down`        | Goto end of file |
 | `code folding`  |                    |
 | `⌘K 0` | Fold all regions in file   |
 | `⌘K j` | Unfold all regions in file |
