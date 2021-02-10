@@ -120,6 +120,10 @@ or available locally via: info '(coreutils) du invocation'
 | Command | Description |
 | ------- | ----------- |
 | `⌘K ⌘S` | Show keyboard shortcuts |
+| `navigation` |whats hapenning|
+| `⌘ up` | Goto top of file |
+| `⌘ down` | Goto end of file |
+| `code folding` |whats hapenning|
 | `⌘K 0` | Fold all regions in file |
 | `⌘K j` | Unfold all regions in file |
 | `⌘K ⌘[` | Fold all subregions |
