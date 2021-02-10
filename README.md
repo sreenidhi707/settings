@@ -114,6 +114,7 @@ or available locally via: info '(coreutils) du invocation'
 | ------- | ----------- |
 | `0` | Goto beginning of line |
 | `^` | Goto first non-blank character in line |
+| `$` | Goto last character in line |
 | `SHIFT D` | Deletes from current cursor position to end of current line |
 
 ## `vscode`
@@ -123,6 +124,19 @@ or available locally via: info '(coreutils) du invocation'
 | `navigation` |                    |
 | `⌘ up`          | Goto top of file |
 | `⌘ down`        | Goto end of file |
+| `code folding`  |                    |
+| `⌘K 0` | Fold all regions in file   |
+| `⌘K j` | Unfold all regions in file |
+| `⌘K ⌘[` | Fold all subregions |
+| `⌘K ⌘]` | Unfold all subregions |
+
+
+## `comparison`
+|      Command    | Description        |    vi   | emacs       | vscode     |
+| ----------------| -----------        | ------- | ----------- |----------- |
+| `navigation`    |                    |         |
+| `⌘ up`          | Goto top of file   |   `0`   |             |  `⌘`:arrow_up:    |
+| `⌘ down`        | Goto end of file   |   `G`   |             |  `⌘`:arrow_down:    |
 | `code folding`  |                    |
 | `⌘K 0` | Fold all regions in file   |
 | `⌘K j` | Unfold all regions in file |
