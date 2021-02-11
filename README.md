@@ -127,13 +127,15 @@ or available locally via: info '(coreutils) du invocation'
 
 
 ## `comparison`
-|  Command group  |       Command            |    vi   | emacs       | vscode     |
-| ----------------| -----------              | ------- | ----------- |----------- |
-| `navigation`    |                          |         |
-|                 | Goto top of file         |   `0`   |             |  `⌘`:arrow_up:    |
-|                 | Goto end of file         |   `G`   |             |  `⌘`:arrow_down:    |
-|                 | Goto beginning of line   |   `gg`  |             |  `⌘`:arrow_left:    |
-|                 | Goto end of line         |   `$`   |             |  `⌘`:arrow_right:    |
+|  Command group  |       Command                  |    vi                  |    emacs    | vscode     |
+| ----------------| -----------                    | -------                | ----------- |----------- |
+| `navigation`    |                                |                        |             |
+|                 | Goto top of file               |   `0`                  |             |  `⌘`:arrow_up:    |
+|                 | Goto end of file               |   `G`                  |             |  `⌘`:arrow_down:    |
+|                 | Goto beginning of line         |   `gg`                 |             |  `⌘`:arrow_left:    |
+|                 | Goto end of line               |   `$`                  |             |  `⌘`:arrow_right:    |
+|                 | Go back to previous location   |   <kbd>Ctrl</kbd> `o`  |             |  <kbd>Ctrl</kbd> `-`    |
+|                 | Go forward to next location    |   <kbd>Ctrl</kbd> `i`  |             | <kbd>Ctrl</kbd> <kbd>Shift</kbd> `-`    |
 | `code folding`  |                    |
 | `⌘K 0` | Fold all regions in file   |
 | `⌘K j` | Unfold all regions in file |
