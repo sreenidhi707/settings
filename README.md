@@ -139,3 +139,5 @@ or available locally via: info '(coreutils) du invocation'
 | `⌘K j` | Unfold all regions in file |
 | `⌘K ⌘[` | Fold all subregions |
 | `⌘K ⌘]` | Unfold all subregions |
+| `deletions`     |                          |         |
+|                 | Delete current line      |   `dd`  |             |  <kbd>Shift</kbd> `⌘k`  |
