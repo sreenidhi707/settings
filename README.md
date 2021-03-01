@@ -132,6 +132,8 @@ or available locally via: info '(coreutils) du invocation'
 | `navigation`    |                                |                        |             |
 |                 | Goto top of file               |   `gg`                 |             |  `⌘`:arrow_up:    |
 |                 | Goto end of file               |   <kbd>Shift</kbd>`G`  |             |  `⌘`:arrow_down:    |
+|                 | Page UP                        |   <kbd>Ctrl</kbd>`b`   |             |   <kbd>Page UP</kbd>   |
+|                 | Page DOWN                      |   <kbd>Ctrl</kbd>`f`   |             |   <kbd>Page DOWN</kbd>   |
 |                 | Goto beginning of line         |   `0` OR `^`           |             |  `⌘`:arrow_left:    |
 |                 | Goto end of line               |   `$`                  |             |  `⌘`:arrow_right:    |
 |                 | Go back to previous location   |   <kbd>Ctrl</kbd> `o`  |             |  <kbd>Ctrl</kbd> `-`    |
