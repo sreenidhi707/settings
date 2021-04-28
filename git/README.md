@@ -12,3 +12,10 @@
 | Command | Description |
 | ------- | ----------- |
 | `git commit -m "new message"`           | Commit files that have already been added to the staging area |
+
+### `stash`
+| Command | Description |
+| ------- | ----------- |
+| `git stash list`                           | List all stashes |
+| `git stash push -m "stash-name"`           | Creates a named stash called 'stash-name' |
+
