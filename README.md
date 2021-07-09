@@ -127,6 +127,12 @@ or available locally via: info '(coreutils) du invocation'
 | `⌘K ⌘[` | Fold all subregions |
 | `⌘K ⌘]` | Unfold all subregions |
 
+Using vscode to debug python code
+Sometimes you may encounter 'module not found' error, when using the debugger of vscode, even though you might have pip installed the package. You may have to install the package using the python binary which is used by the vscode debugger. Run the command below
+
+`venv/bin/python -m pip install scikit-image`
+
+where `venv/bin/python` is the path of the python which is used by vscode debugger and `scikit-image` is the missing package name.
 
 ## `comparison`
 |  Command group  |       Command                  |    vi                  |    emacs    | vscode     |
