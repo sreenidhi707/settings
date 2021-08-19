@@ -19,3 +19,9 @@
 | `git stash list`                           | List all stashes |
 | `git stash push -m "stash-name"`           | Creates a named stash called 'stash-name' |
 
+### `push`
+| Command | Description |
+| ------- | ----------- |
+| `git diff --stat --cached origin/master`           | Shows the list of files that will be pushed to `origin/master` |
+| `git diff --stat --cached origin/branch_name`           | Shows the list of files that will be pushed to `origin/branch_name` |
+
