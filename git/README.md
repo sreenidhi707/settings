@@ -7,6 +7,8 @@
 | `git apply changes.patch` | Apply patch |
 | `git checkout -- .`                  | Revert all unstaged changes in current working directory |
 | `git checkout -- path/to/file/to/revert` | Revert a single file, which was not committed |
+| `git mv old_name new_name` | Rename a file, `old_name` to `new_name` |
+| `git rm file_name` | Delete a file |
 
 ### `commit`
 | Command | Description |
