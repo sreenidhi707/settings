@@ -9,6 +9,8 @@
 | `git checkout -- path/to/file/to/revert` | Revert a single file, which was not committed |
 | `git mv old_name new_name` | Rename a file, `old_name` to `new_name` |
 | `git rm file_name` | Delete a file |
+| `git rm -r folder_name` | Delete a folder from git and filesystem |
+| `git rm -r --cached folder_name` | Delete a folder from git but not from filesystem |
 
 ### `commit`
 | Command | Description |
