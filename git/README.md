@@ -22,6 +22,8 @@
 | ------- | ----------- |
 | `git stash list`                           | List all stashes |
 | `git stash push -m "stash-name"`           | Creates a named stash called 'stash-name' |
+| `git stash apply`                          | Applies the stash in top of stack |
+| `git stash apply <index>`                  | Applies the stash at <index> |
 
 ### `push`
 | Command | Description |
