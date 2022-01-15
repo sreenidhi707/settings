@@ -24,6 +24,7 @@
 | `git stash push -m "stash-name"`           | Creates a named stash called 'stash-name' |
 | `git stash apply`                          | Applies the stash in top of stack |
 | `git stash apply <index>`                  | Applies the stash at <index> |
+| `git stash drop`                           | Drop the stash in top of stack |
 
 ### `push`
 | Command | Description |
