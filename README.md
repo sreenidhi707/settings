@@ -109,3 +109,9 @@ or available locally via: info '(coreutils) du invocation'
 | `screen -wipe` | remove dead `screen`s |
 | `C-a d` | Detach  |
 | `killall screen` | Kill all `screen` sessions  |
+
+## `tar`
+
+| Command | Description |
+| ------- | ----------- |
+| `tar -xvzf file_name.tar.gz` | unzip the file|
