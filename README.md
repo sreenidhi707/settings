@@ -75,7 +75,7 @@ or available locally via: info '(coreutils) du invocation'
 
 | Command | Description |
 | ------- | ----------- |
-| `grep -r --include \*.py "search-term" .` | grep inside all .py files recursively in a folder |
+| `grep -r --include \*.py "search-term" .` | grep inside all .py files recursively in current folder |
 
 ## `less`
 
