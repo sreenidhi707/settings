@@ -86,6 +86,9 @@ or available locally via: info '(coreutils) du invocation'
 | `G` | Goto end of file |
 | `SPC` | Page down |
 | `b` | Page up |
+| `100g` | Goto line `100` |
+| `50p` | Goto `50%` of the file |
+| `100P` | Goto line containing `100th` Byte |
 | `/<text>` | Search forwards |
 | `?<text>` | Search backwards |
 | `-S` | Disable line wrap, to see chopped portion press right arrow |
