@@ -121,6 +121,14 @@ or available locally via: info '(coreutils) du invocation'
 | `C-a d` | Detach  |
 | `killall screen` | Kill all `screen` sessions  |
 
+## `temp folder management`
+```
+TEMP_DIR=/localdata/$USER/sreenidhi_temp
+export TEMPDIR=$TEMP_DIR
+export TMPDIR=$TEMP_DIR
+export TEMP=$TEMP_DIR
+```
+
 ## `tar`
 
 | Command | Description |
