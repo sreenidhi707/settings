@@ -135,9 +135,10 @@ export TMPDIR=$TEMP_DIR
 export TEMP=$TEMP_DIR
 ```
 ## `tmux`
-
+<kbd>Ctrl</kbd>`b`
 | Command | Description |
 | ------- | ----------- |
 | `tmux -ls` | list all currently running `tmux` sessions |
 | `tmux new -s <session-name>` | Start a new `screen` session with name `screen-name` |
-
+| <kbd>Ctrl</kbd> + `b` <kbd>%</kbd> | Split pane horizontally |
+| <kbd>Ctrl</kbd> + `b` <kbd>"</kbd> | Split pane vertically |
