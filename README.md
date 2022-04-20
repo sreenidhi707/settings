@@ -115,11 +115,17 @@ or available locally via: info '(coreutils) du invocation'
 | ------- | ----------- |
 | `screen -ls` | list all currently running `screen` sessions |
 | `echo $STY` | show the name of current `screen` session, if attached |
-| `screen -S <screen-name>` | Start a new `screen` session with name `screen-name` |
-| `screen -r <screen-name>` | Attach to a running `screen` session with name `screen-name` |
+| `screen -S <session-name>` | Start a new `screen` session with name `session-name` |
+| `screen -r <session-name>` | Attach to a running `screen` session with name `session-name` |
 | `screen -wipe` | remove dead `screen`s |
 | `C-a d` | Detach  |
 | `killall screen` | Kill all `screen` sessions  |
+
+## `tar`
+
+| Command | Description |
+| ------- | ----------- |
+| `tar -xvzf file_name.tar.gz` | unzip the file|
 
 ## `temp folder management`
 ```
@@ -128,9 +134,10 @@ export TEMPDIR=$TEMP_DIR
 export TMPDIR=$TEMP_DIR
 export TEMP=$TEMP_DIR
 ```
-
-## `tar`
+## `tmux`
 
 | Command | Description |
 | ------- | ----------- |
-| `tar -xvzf file_name.tar.gz` | unzip the file|
+| `tmux -ls` | list all currently running `tmux` sessions |
+| `tmux new -s <session-name>` | Start a new `screen` session with name `screen-name` |
+
