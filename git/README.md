@@ -11,6 +11,8 @@
 | `git rm file_name` | Delete a file |
 | `git rm -r folder_name` | Delete a folder from git and filesystem |
 | `git rm -r --cached folder_name` | Delete a folder from git but not from filesystem |
+| `git log --grep=<pattern>` | `grep` in commit messages |
+
 
 ### `commit`
 | Command | Description |
