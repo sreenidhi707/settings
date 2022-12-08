@@ -22,7 +22,20 @@ Sometimes you may encounter 'module not found' error, when using the debugger of
 `venv/bin/python -m pip install scikit-image`
 
 where `venv/bin/python` is the path of the python which is used by vscode debugger and `scikit-image` is the missing package name.
-
+### Snippet to insert timestamp in markdown documents
+- Open Command Palette
+- Select "Preferences: Configure User Snippets"
+- Select "markdown.json"
+- Insert this
+  ```
+    "Insert Timestamp": {
+    "prefix": "insts",
+    "body": [
+        "$CURRENT_YEAR-$CURRENT_MONTH-${CURRENT_DATE}_${CURRENT_HOUR}h:${CURRENT_MINUTE}m:${CURRENT_SECOND}s"
+    ],
+    "description": "Insert timestamp"
+  }
+  ```
 ## `comparison`
 |  Command group  |       Command                  |    vi                  |    emacs    | vscode     |
 | ----------------| -----------                    | -------                | ----------- |----------- |
