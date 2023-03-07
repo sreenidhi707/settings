@@ -46,6 +46,8 @@ where `venv/bin/python` is the path of the python which is used by vscode debugg
 |                 | Page DOWN                      |   <kbd>Ctrl</kbd>`f`   |             |   <kbd>Page DOWN</kbd>   |
 |                 | Goto beginning of line         |   `0` OR `^`           |             |  `⌘`:arrow_left:    |
 |                 | Goto end of line               |   `$`                  |             |  `⌘`:arrow_right:    |
+|                 | Go one word forward            |   `w`           |                    |      |
+|                 | Go one word backward           |   `b`                  |             |     |
 |                 | Go back to previous location   |   <kbd>Ctrl</kbd> `o`  |             |  <kbd>Ctrl</kbd> `-`    |
 |                 | Go forward to next location    |   <kbd>Ctrl</kbd> `i`  |             | <kbd>Ctrl</kbd> <kbd>Shift</kbd> `-`    |
 | `code folding`  |                    |
