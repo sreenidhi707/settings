@@ -24,6 +24,7 @@
 | ------- | ----------- |
 | `git stash list`                           | List all stashes |
 | `git stash push -m "stash-name"`           | Creates a named stash called 'stash-name' |
+| `git stash push -p -m "stash-name"`        | Allows you to stash portions of the changes, like a single file, it asks for what to do for each hunk |
 | `git stash apply`                          | Applies the stash in top of stack |
 | `git stash apply <index>`                  | Applies the stash at <index> |
 | `git stash drop`                           | Drop the stash in top of stack |
