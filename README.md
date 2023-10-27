@@ -71,7 +71,7 @@ or available locally via: info '(coreutils) du invocation'
 ## `docker`
 | Command | Description |
 | ------- | ----------- |
-| CTRL P + CTRL Q | Detach from a running container |
+| <kbd>Ctrl</kbd> `p` + <kbd>Ctrl</kbd> `q` | Detach from a running container |
 
 ## `grep`
 
