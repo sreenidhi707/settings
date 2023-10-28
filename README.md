@@ -72,6 +72,7 @@ or available locally via: info '(coreutils) du invocation'
 | Command | Description |
 | ------- | ----------- |
 | <kbd>Ctrl</kbd> `p` + <kbd>Ctrl</kbd> `q` | Detach from a running container |
+| <kbd>Ctrl</kbd> `d` | Exit from a running container |
 
 ## `grep`
 
