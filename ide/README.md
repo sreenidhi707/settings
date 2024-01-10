@@ -55,5 +55,9 @@ where `venv/bin/python` is the path of the python which is used by vscode debugg
 | `⌘K j` | Unfold all regions in file |
 | `⌘K ⌘[` | Fold all subregions |
 | `⌘K ⌘]` | Unfold all subregions |
+| `copy`     |                          |         |
+|                 | Copy current line               |   `yy`                 |             |       |
+| `paste`     |                          |         |
+|                 | Paste content in buffer               |   `p`                 |             |       |
 | `deletions`     |                          |         |
 |                 | Delete current line      |   `dd`  |             |  <kbd>Shift</kbd> `⌘k`  |
