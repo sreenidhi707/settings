@@ -2,6 +2,6 @@
         default = simple
 [user]
         name = Sreenidhi
-        email = sreenidhia@nvidia.com
+        email = <enter email>
 [alias]
         lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
