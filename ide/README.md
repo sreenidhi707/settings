@@ -41,9 +41,9 @@ where `venv/bin/python` is the path of the python which is used by vscode debugg
 | ----------------| -----------                    | -------                | ----------- |----------- |
 | `navigation`    |                                |                        |             |
 |                 | Go up                          |   `j`                  |             |  :arrow_up:    |
-|                 | Go down                        |   `k`                  |             |  :arrow_up:    |
-|                 | Go left                        |   `h`                  |             |  :arrow_up:    |
-|                 | Go eight                       |   `l`                  |             |  :arrow_up:    |
+|                 | Go down                        |   `k`                  |             |  :arrow_down:    |
+|                 | Go left                        |   `h`                  |             |  :arrow_left:    |
+|                 | Go eight                       |   `l`                  |             |  :arrow_right:    |
 |                 | Goto end of file               |   <kbd>Shift</kbd>`G`  |             |  `⌘`:arrow_down:    |
 |                 | Page UP                        |   <kbd>Ctrl</kbd>`b`   |             |   <kbd>Page UP</kbd>   |
 |                 | Page DOWN                      |   <kbd>Ctrl</kbd>`f`   |             |   <kbd>Page DOWN</kbd>   |
