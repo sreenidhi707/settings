@@ -1,6 +1,14 @@
 
 ## `vi`
 
+### Change Modes
+| Command | Description |
+| ------- | ----------- |
+| `i` | Normal mode to insert mode |
+| `r` | Normal mode to replace mode |
+| `v` | Normal mode to visual mode |
+| `i` | Normal mode to insert mode |
+
 | Command | Description |
 | ------- | ----------- |
 | `^` | Goto first non-blank character in line |
