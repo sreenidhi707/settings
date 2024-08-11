@@ -63,5 +63,6 @@ where `venv/bin/python` is the path of the python which is used by vscode debugg
 | `paste`     |                          |         |
 |                 | Paste content in buffer               |   `p`                 |             |       |
 | `deletions`     |                          |         |
+|                 | Delete current character |   `x`  |             |    |
 |                 | Delete current word      |   `dw`  |             |    |
 |                 | Delete current line      |   `dd`  |             |  <kbd>Shift</kbd> `⌘k`  |
