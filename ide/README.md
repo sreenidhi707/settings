@@ -7,6 +7,8 @@
 | `i` | Normal mode to insert mode |
 | `r` | Normal mode to replace mode |
 | `v` | Normal mode to visual mode |
+| `V` | Normal mode to visual line mode |
+| <kbd>Ctrl</kbd> `v` | Normal mode to visual block mode |
 | `i` | Normal mode to insert mode |
 
 | Command | Description |
