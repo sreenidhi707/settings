@@ -141,7 +141,7 @@ export TEMP=$TEMP_DIR
 ```
 $ cd ~
 $ mv .cache workspace/.cache
-$ ln -s workspace/.cache/ ~.cache
+$ ln -s workspace/.cache/ ~/.cache
 ```
 
 ## `tmux`
