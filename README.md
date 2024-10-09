@@ -137,6 +137,11 @@ export TEMPDIR=$TEMP_DIR
 export TMPDIR=$TEMP_DIR
 export TEMP=$TEMP_DIR
 ```
+### For `.cache` folder
+$cd ~
+$ mv .cache workspace/.cache
+$ ln -s workspace/.cache/ ~.cache
+
 ## `tmux`
 <kbd>Ctrl</kbd>`b`
 | Command | Description |
