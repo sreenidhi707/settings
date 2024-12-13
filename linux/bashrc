@@ -1,38 +1,38 @@
 # Function to set prompt skipping first n parents with color
 set_prompt() {
-    local skip_parents=${1:-2}  # Default to skipping 2 parents if no argument provided
-    
-    # ANSI color codes
-    local GREEN='\[\033[0;32m\]'    # Green
-    local BLUE='\[\033[0;34m\]'     # Blue
-    local RESET='\[\033[0m\]'       # Reset color
-    
-    # Get the full path
-    local full_path=$(pwd)
-    
-    # Split the path and remove first n parents
-    local path_trunc=$(echo "$full_path" | awk -F'/' -v skip="$skip_parents" '{
-        # Start from (skip + 1)th component
-        start = skip + 1
-        
-        # If total components are less than or equal to skip, show full path
-        if (NF <= skip) {
-            print $0
-        } else {
-            # Add ... if we skipped some parents
-            if (NF > skip) {
-                printf ".../"
-            }
-            
-            # Print remaining path components
-            for(i=start; i<=NF; i++) {
-                printf "/"$(i)
-            }
-        }
-    }' | sed 's|^/||')
-    
-    # Set the prompt with colored username@hostname and path
-    PS1="${GREEN}\u@\h${RESET}:${BLUE}/${path_trunc}${RESET}\$ "
+  local skip_parents=${1:-2}  # Default to skipping 2 parents if no argument provided
+  
+  # ANSI color codes
+  local GREEN='\[\033[0;32m\]'    # Green
+  local BLUE='\[\033[0;34m\]'     # Blue
+  local RESET='\[\033[0m\]'       # Reset color
+  
+  # Get the full path
+  local full_path=$(pwd)
+  
+  # Split the path and remove first n parents
+  local path_trunc=$(echo "$full_path" | awk -F'/' -v skip="$skip_parents" '{
+      # Start from (skip + 1)th component
+      start = skip + 1
+      
+      # If total components are less than or equal to skip, show full path
+      if (NF <= skip) {
+          print $0
+      } else {
+          # Add ... if we skipped some parents
+          if (NF > skip) {
+              printf ".../"
+          }
+          
+          # Print remaining path components
+          for(i=start; i<=NF; i++) {
+              printf "/"$(i)
+          }
+      }
+  }' | sed 's|^/||')
+  
+  # Set the prompt with colored username@hostname and path
+  PS1="${GREEN}\u@\h${RESET}:${BLUE}/${path_trunc}${RESET}\$ "
 }
 
 # Alias to make changing prompt easy
