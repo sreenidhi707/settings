@@ -49,6 +49,9 @@ set nowrap
 " Turn line numbers on
 set number
 
+" Add a vertical line at 120 characters                                                                                 
+ set colorcolumn=120
+
 " Use desert theme
 colorscheme desert
 
