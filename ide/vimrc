@@ -55,6 +55,10 @@ set number
 " Use desert theme
 colorscheme desert
 
+" Display spaces as dots
+set listchars=space:.
+set list
+
 " keep all swp files in C:\Program Files (x86)\Vim\swpFiles
 set swapfile
 set dir="C:\Program Files (x86)\Vim\swpFiles"
