@@ -18,7 +18,7 @@
 
 | Mode       | Command Group                 | Command                         | Keys                  |
 | -----------| -----------                   | -------                         | -------               |
-|  Normal    | Navigation                    | Go down 1 character             | `j` $j$               |
+|  Normal    | Navigation                    | Go down 1 character             | `j`                   |
 |            |                               | Go up 1 character               | `k`                   |
 |            |                               | Go left 1 character             | `h`                   |
 |            |                               | Go right 1 character            | `l`                   |
