@@ -99,10 +99,10 @@ or available locally via: info '(coreutils) du invocation'
 
 ## `python`
 
-| Command | Description |
-| ------- | ----------- |
-| `virtualenv --python=/usr/bin/python2.6 <path/to/new/virtualenv/>` | Create new virtual environment, say for Python 2.6 (in general for versions less than Python 3.3) |
-| `python3.6 -m venv <path/to/new/virtualenv/>` | Create new virtual environment, say for Python 3.6 (in general for versions greater than Python 3.3) |
+| `python` version | Command | Description |
+| ------- | ------- | ----------- |
+|Less than Python 3.3   | `virtualenv --python=/usr/bin/python2.6 <path/to/new/virtualenv/>` | Create new virtual environment|
+|Greater than Python 3.3| `python3.6 -m venv <path/to/new/virtualenv/>` | Create new virtual environment|
 
 ## `rsync`
 
