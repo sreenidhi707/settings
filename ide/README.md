@@ -6,10 +6,9 @@
 | ------- | ----------- |
 | `i` | Normal mode to insert mode |
 | `r` | Normal mode to replace mode |
-| `v` | Normal mode to visual mode |
-| `V` | Normal mode to visual line mode |
-| <kbd>Ctrl</kbd> `v` | Normal mode to visual block mode |
-| `i` | Normal mode to insert mode |
+| `v` | Normal mode to visual mode (character) |
+| `V` | Normal mode to visual mode (line) |
+| <kbd>Ctrl</kbd> `v` | Normal mode to visual mode (block) |
 
 | Command | Description |
 | ------- | ----------- |
@@ -68,11 +67,12 @@ where `venv/bin/python` is the path of the python which is used by vscode debugg
 | `⌘K j` | Unfold all regions in file |
 | `⌘K ⌘[` | Fold all subregions |
 | `⌘K ⌘]` | Unfold all subregions |
-| `copy`     |                          |         |
-|                 | Copy current line               |   `yy`                 |             |       |
+| `copy`          |                                    |                         |             |       |
+|                 | Copy current word under cursor     |   `yiw`                 |             |       |
+|                 | Copy current line                  |   `yy`                  |             |       |
 | `paste`     |                          |         |
 |                 | Paste content in buffer               |   `p`                 |             |       |
-| `deletions`     |                          |         |
-|                 | Delete current character |   `x`  |             |    |
-|                 | Delete current word      |   `dw`  |             |    |
-|                 | Delete current line      |   `dd`  |             |  <kbd>Shift</kbd> `⌘k`  |
+| `deletions`     |                                        |         |
+|                 | Delete current character (normal mode) |   `x`  |             |    |
+|                 | Delete current word (normal mode)      |   `dw`  |             |    |
+|                 | Delete current line (normal mode)      |   `dd`  |             |  <kbd>Shift</kbd> `⌘k`  |
