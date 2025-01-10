@@ -18,7 +18,7 @@
 
 | Mode       | Command Group                 | Command                         | Keys                  |
 | -----------| -----------                   | -------                         | -------               |
-|  Normal    | Navigation                    | Go down 1 character             | `j`                   |
+|  Normal    | Navigation                    | Go down 1 character             | `j` $j$               |
 |            |                               | Go up 1 character               | `k`                   |
 |            |                               | Go left 1 character             | `h`                   |
 |            |                               | Go right 1 character            | `l`                   |
@@ -31,7 +31,9 @@
 |            |                               | Paste content in buffer         | `p`                   |
 |  Normal    | Deletions                     | Delete current character        | `x`                   |
 |            |                               | Delete current word             | `dw`                  |
+|            |                               | Delete n word                   | `dnw`                 |
 |            |                               | Delete current line             | `dd`                  |
+|            |                               | Delete n lines                  | `ndd`                 |
 
 ## `vscode`
 | Command | Description |
