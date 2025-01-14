@@ -16,24 +16,25 @@
 | `SHIFT D` | Deletes from current cursor position to end of current line |
 
 
-| Mode       | Command Group                 | Command                         | Keys                  |
-| -----------| -----------                   | -------                         | -------               |
-|  Normal    | Navigation                    | Go down 1 character             | `j`                   |
-|            |                               | Go up 1 character               | `k`                   |
-|            |                               | Go left 1 character             | `h`                   |
-|            |                               | Go right 1 character            | `l`                   |
-|            |                               | Go left 1 word                  | `b`                   |
-|            |                               | Go right 1 word                 | `w`                   |
-|            |                               | Goto beginning of line          | `0` OR `^`            |
-|            |                               | Goto end of line                | `$`                   |
-|  Normal    | Copy & Paste                  | Copy current word under cursor  | `yiw`                 |
-|            |                               | Copy current line               | `yy`                  |
-|            |                               | Paste content in buffer         | `p`                   |
-|  Normal    | Deletions                     | Delete current character        | `x`                   |
-|            |                               | Delete current word             | `dw`                  |
-|            |                               | Delete n word                   | `dnw`                 |
-|            |                               | Delete current line             | `dd`                  |
-|            |                               | Delete n lines                  | `ndd`                 |
+| Mode       | Command Group                 | Command                                        | Keys                  |
+| -----------| -----------                   | -------                                        | -------               |
+|  Normal    | Navigation                    | Go down 1 character                            | `j`                   |
+|            |                               | Go up 1 character                              | `k`                   |
+|            |                               | Go left 1 character                            | `h`                   |
+|            |                               | Go right 1 character                           | `l`                   |
+|            |                               | Go left 1 word                                 | `b`                   |
+|            |                               | Go right 1 word                                | `w`                   |
+|            |                               | Goto beginning of line                         | `0` OR `^`            |
+|            |                               | Goto end of line                               | `$`                   |
+|  Normal    | Copy & Paste                  | Copy current word under cursor                 | `yiw`                 |
+|            |                               | Copy current line                              | `yy`                  |
+|            |                               | Paste content in buffer                        | `p`                   |
+|  Normal    | Deletions                     | Delete current character                       | `x`                   |
+|            |                               | Delete current word                            | `dw`                  |
+|            |                               | Delete n word                                  | `dnw`                 |
+|            |                               | Delete rest of the line from cursor postion    | `d$` OR `D`           |
+|            |                               | Delete current line                            | `dd`                  |
+|            |                               | Delete n lines                                 | `ndd`                 |
 
 ## `vscode`
 | Command | Description |
