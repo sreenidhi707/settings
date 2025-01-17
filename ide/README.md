@@ -35,6 +35,8 @@
 |            |                               | Delete rest of the line from cursor postion    | `d$` OR `D`           |
 |            |                               | Delete current line                            | `dd`                  |
 |            |                               | Delete n lines                                 | `ndd`                 |
+|  Normal    | Search                        | Search forward for word under cursor           | `*`                   |
+|            |                               | Search backward for word under cursor          | `#`                   |
 
 ## `vscode`
 | Command | Description |
