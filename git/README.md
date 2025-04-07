@@ -29,6 +29,10 @@
 | `git stash apply`                          | Applies the stash in top of stack |
 | `git stash apply <index>`                  | Applies the stash at <index> |
 | `git stash drop`                           | Drop the stash in top of stack |
+| `git stash show`                              | Shows the summary of the changes at the top of stash |
+| `git stash show -p`                           | Shows the diff of the changes at the top of stash |
+| `git stash show stash@{n}`                    | Shows the summary of the changes at index `n` of stash |
+| `git stash show stash@{n} -p`                 | Shows the diff of the changes at index `n` of stash |
 
 ### `push`
 | Command | Description |
