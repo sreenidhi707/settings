@@ -66,7 +66,7 @@ or available locally via: info '(coreutils) du invocation'
 | Command | Description |
 | ------- | ----------- |
 | `sudo du -sh ./* \| sort -hr` | disk usage summary of current folder in human readable format `\|` sort in reverse order and show output in human readable format |
-| `du -h --max-depth=1 <folder> 2>/dev/null \| sort -h` | disk usage summary of `<folder>` in human readable format `\|` sort in reverse order and show output in human readable format |
+| `du -h --max-depth=1 <folder> 2>/dev/null \| sort -hr` | disk usage summary of `<folder>` in human readable format `\|` sort in reverse order and show output in human readable format |
 
 ## `docker`
 | Command | Description |
