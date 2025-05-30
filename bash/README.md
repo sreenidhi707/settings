@@ -25,3 +25,6 @@ This doesn't distinguish between a variable that is:
 * A variable that is set to the empty string.
 
 That is to say, if `var=''` (meaning set to blank, NOT space) then the above solution will output "var is blank".
+
+See more:
+https://stackoverflow.com/questions/3601515/how-to-check-if-a-variable-is-set-in-bash
