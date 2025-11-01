@@ -2,6 +2,7 @@
 
 | Command | Description |
 | ------- | ----------- |
+| `git status -uno`           | `git status` does not show untracked files |
 | `git diff > changes.patch`           | Save **uncommitted** changes into a patch |
 | `git diff -- cached > changes.patch` | Save **committed** changes into a patch   |
 | `git apply changes.patch` | Apply patch |
