@@ -150,5 +150,6 @@ $ ln -s workspace/.cache/ ~/.cache
 | ------- | ----------- |
 | `tmux ls` | list all currently running `tmux` sessions |
 | `tmux new -s <session-name>` | Start a new `screen` session with name `screen-name` |
-| <kbd>Ctrl</kbd> + `b` <kbd>%</kbd> | Split pane horizontally |
-| <kbd>Ctrl</kbd> + `b` <kbd>"</kbd> | Split pane vertically |
+| <kbd>Ctrl</kbd> + `b` <kbd>%</kbd> | Pane - Split horizontally |
+| <kbd>Ctrl</kbd> + `b` <kbd>"</kbd> | Pane - Split vertically |
+| <kbd>Ctrl</kbd> + `b` <kbd>x</kbd> | Pane - Kill |
