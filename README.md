@@ -149,7 +149,9 @@ $ ln -s workspace/.cache/ ~/.cache
 | Command | Description |
 | ------- | ----------- |
 | `tmux ls` | list all currently running `tmux` sessions |
-| `tmux new -s <session-name>` | Start a new `screen` session with name `screen-name` |
+| `tmux new -s <session-name>` | Session - Start a new `screen` session with name `screen-name` |
+| `tmux attach -t <session-name>` | Session - Attach to a `screen` session with name `screen-name` |
+| <kbd>Ctrl</kbd> + `b` <kbd>d</kbd> | Session - Detach from the current `screen` session |
 | <kbd>Ctrl</kbd> + `b` <kbd>%</kbd> | Pane - Split horizontally |
 | <kbd>Ctrl</kbd> + `b` <kbd>"</kbd> | Pane - Split vertically |
 | <kbd>Ctrl</kbd> + `b` <kbd>x</kbd> | Pane - Kill |
